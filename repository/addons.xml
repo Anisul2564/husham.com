@@ -53,32 +53,6 @@
 		</extension>
 	</addon>
 
-<!--suppress ALL -->
-<addon id="plugin.video.1channel" version="2.5.78" name="1Channel" provider-name="k3l3vra">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.urlresolver" version="3.0"/>
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.metahandler" version="2.6.0" />
-        <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.axel.downloader" version="0.2.0" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup">
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Browse 1channel.ch</summary>
-        <description>Play a wide selection of movies and TV shows from PrimeWire.ag.
-***This addon is supported at [COLOR blue]www.tvaddons.ag[/COLOR], [COLOR white][B]NOT[/B][/COLOR] [COLOR red]xbmc.org[/COLOR]. ***
-        </description>
-        <platform>all</platform>
-        <website>http://tvaddons.ag/</website>
-		<forum>http://forums.tvaddons.ag/forums/32-BSTRDSMKR-S-REPOSITORY</forum>
-    </extension>
-</addon>
-
 <addon
   id="plugin.video.alarab"
   version="4.3.3"
@@ -513,27 +487,6 @@ http://www.kodinerds.net/index.php/Thread/14558-urlResolver-Patches-Verbesserung
   </extension>
 </addon>
 
-<addon id="plugin.video.kodihelp"
-	name="Kodi Help"
-	version="1.0.0"
-	provider-name="coldkeys">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kodi Help</summary>
-    <description lang="en">Kodi Tips, Tricks and Tutorials</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
 <addon
   id="plugin.video.Lebhrmm"
   version="1.0.0"
@@ -669,27 +622,6 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.ryanreggaendancehallmusic"
-  version="1.0.3"
-  name="Ryan Reggae n Dancehall music"
-  provider-name="Husham.com">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.buggalo" version="1.1.2"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Addon made by Husham Memar and Ryan Lovinn Gemz </summary>
-    <description>The Ryan Lovinn Gemz Reggae n Dancehall music</description>
-
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.talesfromthecrypt"
 	name="Tales from the Crypt"
 	version="1.0.0"
@@ -708,29 +640,6 @@ http://www.hometheater.co.il</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.talkshow" name="Talk Show" version="1.7" provider-name="The Knife (Always sharp content)">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.2.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Talk Show</summary>
-    <description lang="en">
-Your favorite talk show clips.
-
-
-For more great addons visit http://thekniferepo.wixsite.com/kodi
-
-
-</description>
-    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1111,20 +1020,6 @@ For more great addons visit http://thekniferepo.wixsite.com/kodi
 		<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.he.xbmc" name="HE Xbmc Brasil" version="1.0.1" provider-name="hgarcia/eseffair">
- <extension point="xbmc.addon.repository" name="HE Xbmc Brasil Add-on Repository">
-  <info compressed="false">http://he-repository-brasil.googlecode.com/svn/trunk/addons.xml</info>
-  <checksum>http://he-repository-brasil.googlecode.com/svn/trunk/addons.xml.md5</checksum>
-  <datadir zip="false">http://he-repository-brasil.googlecode.com/svn/trunk/</datadir>
- </extension>
- <extension point="xbmc.addon.metadata">
-  <summary>XBMC Addons HE</summary>
-  <description>XBMC Addons HE</description>
-  <disclaimer></disclaimer>
-  <platform>all</platform>
- </extension>
 </addon>
 
 <addon id="repository.ytplugin" name="Youtube Addon Repo" version="1.0" provider-name="Jeffrey Frasure">
