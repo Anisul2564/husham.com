@@ -20,6 +20,14 @@ msgctxt "#31000"
 msgid "Change your"
 msgstr "Määritä"
 
+msgctxt "#31001"
+msgid "GAMES"
+msgstr "PELIT"
+
+msgctxt "#31002"
+msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
+msgstr "[B]PELIASETUKSET[/B][CR][CR]Muokkaa kelausasetuksia · Muokkaa näppäimistöasetuksia ja näppäimistöpelaajien määrää"
+
 msgctxt "#31003"
 msgid "Power options"
 msgstr "Virta-asetukset"
@@ -34,15 +42,15 @@ msgstr "Piilota tiedot"
 
 msgctxt "#31006"
 msgid "View options"
-msgstr "Näkymän asetukset"
+msgstr "Näkymäasetukset"
 
 msgctxt "#31007"
 msgid "Video process information"
-msgstr "Videon käsittely"
+msgstr "Videon tekniset tiedot"
 
 msgctxt "#31008"
 msgid "Full screen"
-msgstr "Kokoruutu"
+msgstr "Kokoruututila"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -58,19 +66,23 @@ msgstr "Ei käytössä"
 
 msgctxt "#31012"
 msgid "Decoder"
-msgstr "Purkaja"
+msgstr "Purkutapa"
 
 msgctxt "#31013"
 msgid "Audio process information"
-msgstr "Äänen käsittely"
+msgstr "Äänen tekniset tiedot"
 
 msgctxt "#31014"
 msgid "Memory used"
 msgstr "Käytetty muisti"
 
+msgctxt "#31015"
+msgid "Minute"
+msgstr "Minuutti"
+
 msgctxt "#31023"
 msgid "Playing"
-msgstr "Toistaa"
+msgstr "Toisto"
 
 msgctxt "#31024"
 msgid "Page"
@@ -142,7 +154,7 @@ msgstr "Visualisoinnin esiasetukset"
 
 msgctxt "#31049"
 msgid "End time"
-msgstr "Päättymisaika"
+msgstr "Päättyy"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -190,7 +202,7 @@ msgstr "Näytä \"Tauko\" kuvaesityksessä"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
-msgstr "Toista trailerit ikkunassa [COLOR=grey3](Vain videon informaatiodialogi)[/COLOR]"
+msgstr "Toista trailerit ikkunassa [COLOR=grey3](Vain videotietoikkuna)[/COLOR]"
 
 msgctxt "#31106"
 msgid "Miscellaneous options"
@@ -202,15 +214,15 @@ msgstr "Piilota tiedostojen nimistä luetut merkinnät [COLOR=grey3](Blu-ray, HD
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
-msgstr "Piilota päävalikon painikkeet"
+msgstr "Piilota päävalikon osia"
 
 msgctxt "#31109"
 msgid "Enable custom background"
-msgstr "Valinnainen taustakuva käytössä"
+msgstr "Käytä omaa taustakuvaa"
 
 msgctxt "#31110"
 msgid "Background path:"
-msgstr "Taustakuvan polku:"
+msgstr "Taustakuvan sijainti:"
 
 msgctxt "#31111"
 msgid "Hide"
@@ -234,19 +246,19 @@ msgstr "Päävalikon ohjelmaosion alavalikko"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "Piilota taustan fanitaide"
+msgstr "Piilota fanitaide"
 
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
-msgstr "Piilota EPG, jos RDS on nähtävillä kanavaikkunassa"
+msgstr "Piilota ohjelmatiedot kanavaikkunassa, jos RDS-tietoja on tarjolla"
 
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
-msgstr "Näytä taustalla \"Nyt katsellaan\"-video"
+msgstr "Näytä toistettava video valikoiden taustalla"
 
 msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
-msgstr "Näytä taustalla \"Nyt soi\"-visualisaatio"
+msgstr "Näytä musiikkivisualisointi valikoiden taustalla"
 
 msgctxt "#31128"
 msgid "Lyrics"
@@ -274,7 +286,7 @@ msgstr "Päävalikon kuvaosion alavalikko"
 
 msgctxt "#31140"
 msgid "Music OSD"
-msgstr "Musiikki-OSD"
+msgstr "Musiikin kuvaruutuvalikko"
 
 msgctxt "#31142"
 msgid "Settings level"
@@ -446,7 +458,7 @@ msgstr "Valitse se profiili, jota käytetään käynnistyksessä, kun kirjautumi
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
-msgstr "[B]SOITTIMEN ASETUKSET[/B][CR][CR]Muokkaa mediasoittimen asetuksia · Muokkaa ääniasetuksia · Muokkaa tekstitysasetuksia"
+msgstr "[B]SOITTIMEN ASETUKSET[/B][CR][CR]Muokkaa toiston aikana käytettävissä olevia asetuksia · Muokkaa mediatoiston asetuksia"
 
 msgctxt "#31431"
 msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
@@ -454,7 +466,7 @@ msgstr "[B]KIRJASTON ASETUKSET[/B][CR][CR]Muokkaa kirjaston/tiedostonäkymän as
 
 msgctxt "#31432"
 msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
-msgstr "[B]PVR-ASETUKSET[/B][CR][CR]Muokkaa kanavien ja ohjelmaoppaan asetuksia  · Muokkaa suorien tv-lähetysten ja tallentamisen asetuksia"
+msgstr "[B]PVR-ASETUKSET[/B][CR][CR]Muokkaa kanavien ja ohjelmaoppaan asetuksia · Muokkaa suorien tv-lähetysten ja tallentamisen asetuksia"
 
 msgctxt "#31433"
 msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"

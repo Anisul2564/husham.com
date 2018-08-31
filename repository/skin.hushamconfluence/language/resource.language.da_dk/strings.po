@@ -20,6 +20,10 @@ msgctxt "#31000"
 msgid "Change your"
 msgstr "Ændre din"
 
+msgctxt "#31001"
+msgid "GAMES"
+msgstr "SPIL"
+
 msgctxt "#31003"
 msgid "Power options"
 msgstr "Strømstyring"
@@ -43,6 +47,26 @@ msgstr "Fuld skærm"
 msgctxt "#31009"
 msgid "Total duration"
 msgstr "Total tid"
+
+msgctxt "#31010"
+msgid "Hardware decoding"
+msgstr "Udstyrsafkodning"
+
+msgctxt "#31011"
+msgid "Inactive"
+msgstr "Inaktiv"
+
+msgctxt "#31012"
+msgid "Decoder"
+msgstr "Afkoder"
+
+msgctxt "#31014"
+msgid "Memory used"
+msgstr "Anvendt hukommelse"
+
+msgctxt "#31015"
+msgid "Minute"
+msgstr "Minut"
 
 msgctxt "#31023"
 msgid "Playing"
@@ -130,15 +154,15 @@ msgstr "Sorter: Faldende"
 
 msgctxt "#31055"
 msgid "Open playlist"
-msgstr "Åbn afspilningsliste"
+msgstr "Åbn playliste"
 
 msgctxt "#31056"
 msgid "Save playlist"
-msgstr "Gem afspilningsliste"
+msgstr "Gem playliste"
 
 msgctxt "#31057"
 msgid "Close playlist"
-msgstr "Luk afspilningsliste"
+msgstr "Luk playliste"
 
 msgctxt "#31058"
 msgid "System music files"
@@ -146,7 +170,7 @@ msgstr "Musikfiler til systemet"
 
 msgctxt "#31059"
 msgid "Current playlist"
-msgstr "Nuværende afspilningsliste"
+msgstr "Igangværende playliste"
 
 msgctxt "#31061"
 msgid "Current selected"
@@ -318,7 +342,7 @@ msgstr "Sendt"
 
 msgctxt "#31325"
 msgid "Playlist options"
-msgstr "Indstillinger for Afspilningsliste"
+msgstr "Playlisteindstillinger"
 
 msgctxt "#31326"
 msgid "Created"

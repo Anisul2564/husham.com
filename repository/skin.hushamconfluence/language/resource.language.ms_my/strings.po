@@ -20,6 +20,14 @@ msgctxt "#31000"
 msgid "Change your"
 msgstr "Ubah"
 
+msgctxt "#31001"
+msgid "GAMES"
+msgstr "GAMES"
+
+msgctxt "#31002"
+msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
+msgstr "[B]TETAPAN GAME[/B][CR][CR]Konfigurasi sokongon & pilihan gulung semula · Konfigurasi kegunaan papan kekunci dan nombor pemain"
+
 msgctxt "#31003"
 msgid "Power options"
 msgstr "Pilihan kuasa"
@@ -36,6 +44,10 @@ msgctxt "#31006"
 msgid "View options"
 msgstr "Pilihan paparan"
 
+msgctxt "#31007"
+msgid "Video process information"
+msgstr "Maklumat proses video"
+
 msgctxt "#31008"
 msgid "Full screen"
 msgstr "Skrin Penuh"
@@ -44,9 +56,29 @@ msgctxt "#31009"
 msgid "Total duration"
 msgstr "Tempoh keseluruhan"
 
+msgctxt "#31010"
+msgid "Hardware decoding"
+msgstr "Penyahkodan perkakasan"
+
+msgctxt "#31011"
+msgid "Inactive"
+msgstr "Tidak Aktif"
+
+msgctxt "#31012"
+msgid "Decoder"
+msgstr "Penyahkod"
+
+msgctxt "#31013"
+msgid "Audio process information"
+msgstr "Maklumat proses audio"
+
 msgctxt "#31014"
 msgid "Memory used"
-msgstr "Ingatan digunakan"
+msgstr "Memori diguna"
+
+msgctxt "#31015"
+msgid "Minute"
+msgstr "Minit"
 
 msgctxt "#31023"
 msgid "Playing"
@@ -54,7 +86,7 @@ msgstr "Bermain"
 
 msgctxt "#31024"
 msgid "Page"
-msgstr "Muka surat"
+msgstr "Mukasurat"
 
 msgctxt "#31025"
 msgid "Items"
@@ -194,7 +226,7 @@ msgstr "Laluan latar belakang:"
 
 msgctxt "#31111"
 msgid "Hide"
-msgstr "Sembunyi"
+msgstr "Sembunyikan"
 
 msgctxt "#31112"
 msgid "Options"
@@ -214,7 +246,7 @@ msgstr "Submenu program laman rumah"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "Sembunyi seni peminat latar belakang"
+msgstr "Sembunyikan latar belakang seni peminat"
 
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
