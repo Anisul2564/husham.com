@@ -977,9 +977,9 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon id="skin.hushamConfluence" version="2.1" name="Husham Confluence 18:made by(KodiAceOfClubs)" provider-name="Kodi Ace Of Clubs">
+<addon id="skin.hushamConfluence" version="2.2" name="Husham Confluence 18:made by(KodiAceOfClubs)" provider-name="Kodi Ace Of Clubs">
 	<requires>
-		<import addon="xbmc.gui" version="5.13.0"/>
+		<import addon="xbmc.gui" version="5.14.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
