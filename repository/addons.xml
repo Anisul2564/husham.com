@@ -289,20 +289,6 @@ http://www.hometheater.co.il</description>
 	</extension>
 </addon>
 
-<addon version="0.0.6" id="repository.thehighway" name="TheHighway's Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
-	<extension point="xbmc.addon.repository" name="TheHighway's Addons">
-		<info compressed="true">http://raw.github.com/HIGHWAY99/repository.thehighway/master/addons.xml</info>
-		<checksum>http://raw.github.com/HIGHWAY99/repository.thehighway/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/HIGHWAY99/repository.thehighway/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons</summary>
-		<description>Download and install addons by The[COLOR tan]Highway[/COLOR].</description>
-		<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.ytplugin" name="Youtube Addon Repo" version="1.0" provider-name="Jeffrey Frasure">
 	<extension point="xbmc.addon.repository" name="Youtube Addon Repository">
 		<info compressed="false">https://github.com/jdf76/repository/raw/master/addons.xml</info>
@@ -337,30 +323,6 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon id="script.fantastic.artwork" version="3.0" name="fantastic Artwork" provider-name="fantastic">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the fantastic Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.fantastic.metadata" version="3.0" name="fantastic Metadata" provider-name="fantastic">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the fantastic Addon</summary>
-		<description>Metadata for fantastic are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="script.hushamtweets" name="Husham Tweets" version="1.0.1" provider-name="Husham.com">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
@@ -384,57 +346,6 @@ http://www.hometheater.co.il</description>
             <screenshot>resources/images/screenshot04.png</screenshot>
         </assets>
     </extension>
-</addon>
-
-<addon id="script.module.metahandler"
-     name="metahandler"
-     version="3.0.3"
-     provider-name="Eldorado, jsergio">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="script.module.myconnpy" version="1.1.6"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
-    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
-<addon id="script.module.requests"
-       name="requests"
-       version="2.18.4"
-       provider-name="kennethreitz">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-    <import addon="script.module.urllib3" version="1.22"/>
-    <import addon="script.module.chardet" version="3.0.4"/>
-    <import addon="script.module.idna" version="2.6"/>
-    <import addon="script.module.certifi" version="2017.07.27.1"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Python HTTP for Humans</summary>
-    <description lang="en_GB">Packed for KODI from https://github.com/requests/requests</description>
-    <platform>all</platform>
-    <language></language>
-    <license>Apache2</license>
-    <forum></forum>
-    <website>http://python-requests.org</website>
-    <source>https://github.com/beenje/script.module.requests</source>
-    <email>beenje AT gmail.com</email>
-  </extension>
 </addon>
 
 <addon
@@ -486,42 +397,5 @@ http://www.hometheater.co.il</description>
     <platform>all</platform>
         <website>http://www.husham.com</website>
   </extension>
-</addon>
-
-<addon id="skin.hushamConfluence" version="2.2" name="Husham Confluence 18:made by(KodiAceOfClubs)" provider-name="Kodi Ace Of Clubs">
-	<requires>
-		<import addon="xbmc.gui" version="5.14.0"/>
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
-		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<description lang="en_GB">
-			The Husham Confulence Skin Modified from the original Confulence skin. To add 25 Video addons Shourtcuts
-			The latest SKIN is now a fix for KODI 18 with the help of KODI ACE OF CLUBS developer
-			Thanks to KODI ACE of Clubs for his time to fix this SKIN for KODI 18
-			Video how to use this SKIN will be avaliable in Husham.com
-			This Skin will be stored in http://repo.husham.com
-		</description>
-		<platform>all</platform>
-		<license>GNU General Public License version 2</license>
-		<website>wwww.husham.com</website>
-		<email>contactme@husham.com</email>
-		<source>http://www.repo.husham.com</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-			<screenshot>resources/screenshot-05.jpg</screenshot>
-			<screenshot>resources/screenshot-06.jpg</screenshot>
-			<screenshot>resources/screenshot-07.jpg</screenshot>
-			<screenshot>resources/screenshot-08.jpg</screenshot>
-			<screenshot>resources/screenshot-09.jpg</screenshot>
-		</assets>
-		<news>Redesigned layout for updated Global Search addon</news>
-	</extension>
 </addon>
 </addons>
