@@ -20,6 +20,7 @@ def run():
     global televisioonilink
     global filmilink
     global andmelink
+    global serieslink
     global uuenduslink
     global lehekylg
     global LOAD_LIVE
@@ -38,6 +39,7 @@ def run():
     plugintools.log(pnimi+get_live("U3RhcnRpbmcgdXA="))
     televisioonilink = get_live("JXM6JXMvZW5pZ21hMi5waHA/dXNlcm5hbWU9JXMmcGFzc3dvcmQ9JXMmdHlwZT1nZXRfbGl2ZV9jYXRlZ29yaWVz")%(lehekylg,pordinumber,kasutajanimi,salasona)
     filmilink = vod_channels("JXM6JXMvZW5pZ21hMi5waHA/dXNlcm5hbWU9JXMmcGFzc3dvcmQ9JXMmdHlwZT1nZXRfdm9kX2NhdGVnb3JpZXM=")%(lehekylg,pordinumber,kasutajanimi,salasona)
+    serieslink = vod_channels("JXM6JXMvZW5pZ21hMi5waHA/dXNlcm5hbWU9JXMmcGFzc3dvcmQ9JXMmdHlwZT1nZXRfc2VyaWVzX2NhdGVnb3JpZXM=")%(lehekylg,pordinumber,kasutajanimi,salasona)
     andmelink = vod_channels("JXM6JXMvcGFuZWxfYXBpLnBocD91c2VybmFtZT0lcyZwYXNzd29yZD0lcw==")%(lehekylg,pordinumber,kasutajanimi,salasona)
     uuenduslink = get_live("aHR0cHM6Ly93d3cuZHJvcGJveC5jb20vcy83ZW0yNHdkMXBkZGlkcW8vdmVyc2lvbi50eHQ/ZGw9MQ==")
     if get_live("WHRyZWFtLUNvZGVz") not in open(addonDir+"/"+sync_data("YWRkb24ueG1s")).read():
@@ -64,6 +66,7 @@ def peamenyy(params):
        plugintools.add_item( action=vod_channels("ZXhlY3V0ZV9haW5mbw=="),   title=vod_channels("TXkgQWNjb3VudA==") , thumbnail="" , fanart=os.path.join(LOAD_LIVE,vod_channels("YmFja2dyb3VuZC5wbmc=")) , folder=True )
        plugintools.add_item( action=vod_channels("c2VjdXJpdHlfY2hlY2s="),  title=vod_channels("TGl2ZSBUVg==") , thumbnail="" , fanart=os.path.join(LOAD_LIVE,vod_channels("YmFja2dyb3VuZC5wbmc=")) , folder=True )
        plugintools.add_item( action=vod_channels("ZGV0ZWN0X21vZGlmaWNhdGlvbg=="),   title=vod_channels("VmlkZW8gT24gRGVtYW5k") , thumbnail="" , fanart=os.path.join(LOAD_LIVE,vod_channels("YmFja2dyb3VuZC5wbmc=")) , folder=True )
+       plugintools.add_item( action=vod_channels("bGlzdF9zZXJpZXM="),   title=vod_channels("U2VyaWVz") , thumbnail="" , fanart=os.path.join(LOAD_LIVE,vod_channels("YmFja2dyb3VuZC5wbmc=")) , folder=True )
        plugintools.add_item( action=vod_channels("bGljZW5zZV9jaGVjaw=="), title=vod_channels("U2V0dGluZ3M=") , thumbnail="" , fanart=os.path.join(LOAD_LIVE,vod_channels("YmFja2dyb3VuZC5wbmc=") ), folder=False )
        plugintools.set_view( plugintools.LIST )
     else:
@@ -106,6 +109,18 @@ def detect_modification(params):
         filminimi = base64.b64decode(filminimi)
         kategoorialink = channel.find(vod_channels("cGxheWxpc3RfdXJs")).text
         plugintools.add_item( action=vod_channels("Z2V0X215YWNjb3VudA=="), title=filminimi , url=kategoorialink , thumbnail = "" , fanart=os.path.join(LOAD_LIVE,sync_data("dGhlYXRlci5qcGc=")) , folder=True )
+    plugintools.set_view( plugintools.LIST )
+def list_series(params):
+    plugintools.log(pnimi+vod_channels("U0VSSUVTIE1lbnUg")+repr(params))        
+    request = urllib2.Request(serieslink, headers={"Accept" : "application/xml"})
+    u = urllib2.urlopen(request)
+    tree = ElementTree.parse(u)
+    rootElem = tree.getroot()
+    for channel in tree.findall(sync_data("Y2hhbm5lbA==")):
+        filminimi = channel.find(get_live("dGl0bGU=")).text
+        filminimi = base64.b64decode(filminimi)
+        kategoorialink = channel.find(vod_channels("cGxheWxpc3RfdXJs")).text
+        plugintools.add_item( action=vod_channels("bWVudV9zZXJpZXM="), title=filminimi , url=kategoorialink , thumbnail = "" , fanart=os.path.join(LOAD_LIVE,sync_data("bG9nby5wbmc=")) , folder=True )
     plugintools.set_view( plugintools.LIST )
 def stream_video(params):
     plugintools.log(pnimi+sync_data("TGl2ZSBDaGFubmVscyBNZW51IA==")+repr(params))
@@ -173,6 +188,30 @@ def get_myaccount(params):
                plugintools.add_item( action="restart_service", title=pealkiri , url=striimilink, thumbnail=os.path.join(LOAD_LIVE,"noposter.jpg"), plot=kirjeldus, fanart="" , extra="", isPlayable=True, folder=False )
         plugintools.set_view( plugintools.MOVIES )
         xbmc.executebuiltin('Container.SetViewMode(515)')
+def menu_series(params):
+    plugintools.log(pnimi+get_live("U0VSSUVTIGNoYW5uZWxzIG1lbnUg")+repr(params))
+    purl = params.get(get_live("dXJs"))
+    request = urllib2.Request(purl, headers={"Accept" : "application/xml"})
+    u = urllib2.urlopen(request)
+    tree = ElementTree.parse(u)
+    rootElem = tree.getroot()
+    for channel in tree.findall(sync_data("Y2hhbm5lbA==")):
+        filminimi = channel.find(get_live("dGl0bGU=")).text
+        filminimi = base64.b64decode(filminimi)
+        linkElem = channel.find(get_live("c3RyZWFtX3VybA=="))
+        if linkElem is None:
+            kategoorialink = channel.find(get_live("cGxheWxpc3RfdXJs")).text
+            plugintools.add_item( action="menu_series", title=filminimi , url=kategoorialink , thumbnail = "" , fanart=os.path.join(LOAD_LIVE,"hometheater.jpg") , folder=True )
+        else:
+            striimilink = channel.find(get_live("c3RyZWFtX3VybA==")).text
+            filminimi = filminimi.encode("utf-8")
+            pilt = channel.find(sync_data("ZGVzY19pbWFnZQ==")).text 
+            if pilt:
+               plugintools.add_item( action="play_serie", title=filminimi , url=striimilink, thumbnail=pilt, plot="", fanart=os.path.join(LOAD_LIVE,"hometheater.jpg") , extra="", isPlayable=True, folder=False )
+            else:
+               plugintools.add_item( action="play_serie", title=filminimi , url=striimilink, thumbnail=os.path.join(LOAD_LIVE,"noposter.jpg"), plot="", fanart="" , extra="", isPlayable=True, folder=False )
+    plugintools.set_view( plugintools.MOVIES )
+    xbmc.executebuiltin('Container.SetViewMode(515)')
 def run_cronjob(params):
     plugintools.log(pnimi+sync_data("UExBWV9MSVZF")+repr(params))
     if vanemalukk == "true":
@@ -188,6 +227,10 @@ def restart_service(params):
     if vanemalukk == "true":
        pealkiri = params.get(sync_data("dGl0bGU="))
        vanema_lukk(pealkiri)
+    lopplink = params.get(vod_channels("dXJs"))
+    plugintools.play_resolved_url( lopplink )
+def play_serie(params):
+    plugintools.log(pnimi+get_live("UExBWSBTRVJJRSA=")+repr(params))
     lopplink = params.get(vod_channels("dXJs"))
     plugintools.play_resolved_url( lopplink )
 def grab_epg():
@@ -318,11 +361,11 @@ def load_channels():
        plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
        sys.exit()
     statinfo = os.stat(addonDir+"/"+get_live("YWRkb24ueG1s"))
-    if statinfo.st_size <> 963:
+    if statinfo.st_size <> 993:
        plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
        sys.exit()
     statinfo = os.stat(addonDir+"/"+get_live("aW5pdC5weQ=="))
-    if statinfo.st_size <> 19106:
+    if statinfo.st_size <> 22100:
        plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
        sys.exit()
     statinfo = os.stat(addonDir+"/"+get_live("aWNvbi5wbmc="))
