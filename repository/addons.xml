@@ -78,6 +78,27 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.hushamnews12" name="News 12" version="1.0.41" provider-name="Husham.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language />
+    <platform>all</platform>
+    <website>http://www.husham.com/</website>
+    <source>http://forum.husham.com</source>
+    <forum>https://github.com/hmemar/husham.com</forum>
+    <email>website@husham.com</email>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+
+
+  </extension>
+</addon>
+
 <addon id="plugin.video.karbala"
        name="KarbalaTV"
        version="1.0.04"
@@ -107,27 +128,6 @@
     <summary lang="en"> Enjoy husham.com Karabal TV</summary>
     <description lang="en">Please check out husham.com for latest updates</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.hushamnews12" name="News 12" version="1.0.3" provider-name="Husham.com">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language />
-    <platform>all</platform>
-    <website>http://www.husham.com/</website>
-    <source>http://forum.husham.com</source>
-    <forum>https://github.com/hmemar/husham.com</forum>
-    <email>website@husham.com</email>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-
-
   </extension>
 </addon>
 
