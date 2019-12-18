@@ -1,0 +1,14 @@
+1.0.4.1 - ( 18.12.2019 )
+Fresh new - not using using Lunatixz Code
+Got a message from a user that paid for the addon long time ago to support the project - he told me the addon stopped working.
+so I Rewrote the addon my self and posted it in Husham.com Repo . Just wanted to keep the project alive
+1.0.4 - Broken with kodi 18.4 and KODI 18.5 
+1.0.4 - Lunatixz has added paid section user and password for users to pay for link from news 12 and optimium .. 
+1.0.3 - Merged the addon number with Lunatixz KODI Addon as he published his addon to the kodi repo . 
+but I remain in the husham repo. so I wanted to work to help not cause confusion like he did
+1.0.2 (30.09.2015)
+	Added News 12 Brooklyn as forgot it first
+1.0.2 (30.09.2015)
+	Fixed New Jersey Link
+1.0.1 (28.09.2015)
+  initial release
