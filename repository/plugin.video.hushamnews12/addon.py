@@ -32,30 +32,15 @@ STATIC_STREAMS = (
         'logo': 'news12.jpg',
         'stream_url': ('http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12LI_WEST'),
     },
-    {
-        'title': 'News 12 Long Island traffic',
-        'logo': 'news12.jpg',
-        'stream_url': ('http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12TW_LI'),
-    },
 	{
         'title': 'News 12 Bronx',
         'logo': 'news12.jpg',
         'stream_url': ('http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12BX'),
     },
 	{
-        'title': 'News 12 New York City Traffic',
-        'logo': 'news12.jpg',
-        'stream_url': ('http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12TW_NYC'),
-    },	
-	{
         'title': 'News 12 Connecticut',
         'logo': 'news12.jpg',
         'stream_url': ('http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12CT_WEST'),
-    },
-	{
-        'title': 'News 12 Connecticut Traffic',
-        'logo': 'news12.jpg',
-        'stream_url': ('http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12TW_CT'),
     },
 	{
         'title': 'News 12 Hudson Valley',
@@ -63,19 +48,9 @@ STATIC_STREAMS = (
         'stream_url': ('http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12HV'),
     },
 	{
-        'title': 'News 12 Hudson Valley Traffic',
-        'logo': 'news12.jpg',
-        'stream_url': ('http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12TW_WC'),
-    },
-	{
         'title': 'NEWS 12 NEW JERSEY',
         'logo': 'news12.jpg',
         'stream_url': ('http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12NJ_CENTRAL'),
-    },
-	{
-        'title': 'NEWS 12 NEW JERSEY Traffic',
-        'logo': 'news12.jpg',
-        'stream_url': ('http://hls.iptv.optimum.net/news12/nipadlive/index_new.m3u8?callsign=N12TW_NJ'),
     },
 	{
         'title': 'News 12 Westchester',
