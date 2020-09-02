@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version  V3.1.0.0 -- Jan van Straaten" generator-info-url="http://www.webgrabplus.com">
+  <channel id="RedBull TV">
+    <display-name lang="en">RedBull TV</display-name>
+    <icon src="https://archive.org/download/RedBullTVLogo/Red-Bull-TV-Logo.png" />
+    <url>http://www.redbull.tv</url>
+  </channel>
+  <channel id="HBO - Eastern Feed">
+    <display-name lang="en">HBO - Eastern Feed</display-name>
+    <url>http://www.tvtv.us</url>
+  </channel>
+  <channel id="HBO 2 - Eastern Feed">
+    <display-name lang="en">HBO 2 - Eastern Feed</display-name>
+    <url>http://www.tvtv.us</url>
+  </channel>
+  <programme start="20200831135600 +0000" stop="20200831142200 +0000" channel="RedBull TV">
+    <title lang="en">Red Bull King of the Air</title>
+    <sub-title lang="en">Red Bull Sports Events</sub-title>
+    <desc lang="en">Red Bull King of the Air sets out to find the world's best kitesurfer in Cape Town's Big Bay, in South Africa. The gnarliest kitesurfing event on the planet, Red Bull King of the Air, sees the world's top practitioners of kitesurfing travel to South Africa to take on some of the most inhospitable wave-riding conditions in a head-to-head format.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:84e90b03-3c9d-5a49-9745-a38a1bc20274/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S2 E1</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831142200 +0000" stop="20200831144900 +0000" channel="RedBull TV">
+    <title lang="en">Red Bull BC One</title>
+    <sub-title lang="en">Red Bull Sports Events</sub-title>
+    <desc lang="en">These gladiators of dance give it everything for a chance to be named the number one breaker in the world. These gladiators of dance must pull out their best work, biggest power moves and smoothest routines if they hope to be named the number one breaker in the world.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:246440fc-f9f0-5bb8-8e9e-9faf746ecf24/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E15</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831144900 +0000" stop="20200831151500 +0000" channel="RedBull TV">
+    <title lang="en">Red Bull X-Fighters</title>
+    <sub-title lang="en">Red Bull Sports Events</sub-title>
+    <desc lang="en">The world's top FMX athletes go head-to-head in an iconic bullfighting arena in Madrid, Spain. We bring you all of the freestyle motocross action from Madrid, Spain, where the cream of Red Bull X-Fighters will be facing off to win the sport's most coveted trophy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:6c92f4bb-c265-5fc8-af17-0ca619c3cb6b/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S2 E7</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831151500 +0000" stop="20200831154100 +0000" channel="RedBull TV">
+    <title lang="en">Red Bull X-Fighters</title>
+    <sub-title lang="en">Red Bull Sports Events</sub-title>
+    <desc lang="en">Top FMX riders converge in iconic locations to battle head to head and push the sport to new limits. For years, the best FMX riders in the world have converged in iconic locations across the globe to battle head to head and push the sport to new limits. A knockout-round format means these riders will have to go all out to be crowned champion.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:40c2391e-ae06-5268-8da2-baa42a32808a/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E6</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831154100 +0000" stop="20200831154400 +0000" channel="RedBull TV">
+    <title lang="en">Aksel Lund Svindal</title>
+    <sub-title lang="en">First Chair</sub-title>
+    <desc lang="en">Learn some fascinating things about the life of this alpine skier. Get to know the Norwegian alpine ski racer with this Carpool Karaoke-style interview that features a chat in a ski lift interspersed with some cool action footage.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:f027ce6d-f87b-5936-9cdf-06d0103e4dfd/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E1</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831154400 +0000" stop="20200831154700 +0000" channel="RedBull TV">
+    <title lang="en">Lindsey Vonn</title>
+    <sub-title lang="en">First Chair</sub-title>
+    <desc lang="en">Strong is beautiful – a slogan quadruple Overall Ski World Cup Champion Lindsey Vonn lives by. Lindsey Vonn shares her first memories of being on the snow, the victories she's most proud of and the start of her racing against men.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:d981a2b0-2ab1-5a9a-96bc-e4b50c0d6cea/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E2</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831154700 +0000" stop="20200831155000 +0000" channel="RedBull TV">
+    <title lang="en">Henrik Kristoffersen</title>
+    <sub-title lang="en">First Chair</sub-title>
+    <desc lang="en">Learn some fascinating facts about the Slalom World Cup Champion. From motocross to his first celebrity crush, and what it's like working with his dad as a coach, learn some interesting facts about the Slalom World Cup Champion.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:72bf8462-8a7a-5a88-8c90-77f6cf43ac95/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831155000 +0000" stop="20200831155300 +0000" channel="RedBull TV">
+    <title lang="en">Viktoria Rebensburg</title>
+    <sub-title lang="en">First Chair</sub-title>
+    <desc lang="en">Learn some interesting things about the life of the German alpine skier. The German alpine skier shares how she got into skiing and when the competition amplified, her travel plans, her first role model – and more.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:66e9273a-5a18-5e50-b8a3-19a8b03d674e/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E4</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831155300 +0000" stop="20200831155500 +0000" channel="RedBull TV">
+    <title lang="en">Alexis Pinturault</title>
+    <sub-title lang="en">First Chair</sub-title>
+    <desc lang="en">Get to know French ski star Alexis Pinturault and learn a thing or two you might not know about him. Learn how Alexis Pinturault deals with setbacks, what advice he'd give to hopefuls aiming and get an insight into his private life with this chat during a ski lift ride.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:df47da66-6474-5a2b-8f45-8e300d12e559/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E5</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831155500 +0000" stop="20200831160500 +0000" channel="RedBull TV">
+    <title lang="en">Oakland</title>
+    <sub-title lang="en">Conquest Road Trip</sub-title>
+    <desc lang="en">Anakin and Snake Eyez head to northern California to meet up with Long 'LPN' Nguyen and Miky 'Samurai' Chea. Anakin and Snake Eyez head to northern California to meet up with Long 'LPN' Nguyen and Miky 'Samurai' Chea to get a feel for the gaming scene in Oakland.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:cc898d43-ad24-423c-a3bc-b3e70ea35c7e/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831160500 +0000" stop="20200831161700 +0000" channel="RedBull TV">
+    <title lang="en">Minneapolis</title>
+    <sub-title lang="en">Conquest Road Trip</sub-title>
+    <desc lang="en">Anakin and Snake Eyez make their way to Minneapolis, Minnesota, where they head straight to a local game shop. Anakin and Snake Eyez make their way to Minneapolis, Minnesota, where they meet up with Rick 'The Hadou' Thiher and head straight to a local game shop.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:d7284082-c439-4f8c-87f9-69ff231ba8d8/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E4</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831161700 +0000" stop="20200831163600 +0000" channel="RedBull TV">
+    <title lang="en">Friendly competition</title>
+    <sub-title lang="en">21Days</sub-title>
+    <desc lang="en">Best friends since childhood, Mick Fanning and Joel Parkinson have been sharing barrels during their downtime. Mick Fanning and Joel Parkinson have been sitting at Snapper during their downtime, sharing barrels and riffing stories. Come March they'll be donning jerseys and doing battle.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:da397401-35e8-56d2-8612-db02ef2a4320/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E10</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831163600 +0000" stop="20200831164900 +0000" channel="RedBull TV">
+    <title lang="en">The world champs</title>
+    <sub-title lang="en">Four</sub-title>
+    <desc lang="en">Follow the four athletes throughout the World Championships as they navigate the pressure to succeed. Follow the four athletes throughout the World Championships as they navigate the competition and feel the pressure to succeed. Hear their thoughts on competing, winning and failing.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:a6f746c8-66cf-4d57-90fb-3c53c3dadcf6/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E4</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831164900 +0000" stop="20200831170000 +0000" channel="RedBull TV">
+    <title lang="en">The women's World Championship</title>
+    <sub-title lang="en">Rivals on Ice</sub-title>
+    <desc lang="en">In 2016 women joined ice cross for their own chance at the title, and with it came the start of a rivalry. In 2016, the women's competition joined the season for a chance at the title, and with it came the start of a rivalry. Jacqueline Legere, Amanda Trunzo and Myriam Trépanier were there from the start.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:a9842d9f-cc3f-4a20-9998-710e0e0b98e7/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831170000 +0000" stop="20200831171500 +0000" channel="RedBull TV">
+    <title lang="en">The old days are now</title>
+    <sub-title lang="en">Fast Life</sub-title>
+    <desc lang="en">Most people wouldn't consider risk and suffering 'fun', but it's part of the work of these cyclists. Fun at the UCI Mountain Bike World Cup is a relative term. Most people wouldn't consider risk and suffering 'fun', but it's all part of the job for Loïc Bruni, Finn Iles and Kate Courtney.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:2dd62d56-b240-4470-8248-a076702cb98e/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S3 E6</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831171500 +0000" stop="20200831171800 +0000" channel="RedBull TV">
+    <title lang="en">Kolohe Andino</title>
+    <sub-title lang="en">Surf Raw</sub-title>
+    <desc lang="en">Filmer Jacob Vanderwork brings us his best Kolohe Andino clips from their work together over the winter. Filmer Jacob Vanderwork brings us his best Kolohe Andino clips from their work together over the winter. Watch as Andino tears through the Hawaiian barrels.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:e561f615-0cf0-5390-b230-a86c710ca64d/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E4</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831171800 +0000" stop="20200831172000 +0000" channel="RedBull TV">
+    <title lang="en">Michel Bourez</title>
+    <sub-title lang="en">Pipeline to the Pros</sub-title>
+    <desc lang="en">The Tahitian surfer is nicknamed 'The Spartan' for his superhero physique and powerful style. Nicknamed 'The Spartan' for his superhero physique and powerful style, Michel Bourez also knows when it’s time to kick back and re-set his mental approach.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:episode-videos:302a06bc-0188-50c7-8135-772e3ecb7f03/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831172000 +0000" stop="20200831190100 +0000" channel="RedBull TV">
+    <title lang="en">And Two If By Sea</title>
+    <sub-title lang="en">A tale of adventure, destiny and family</sub-title>
+    <desc lang="en">Watch the iconic story of sibling rivalry between pro surfers and identical twins CJ and Damien Hobgood. Watch the iconic story of professional surfers and identical twins CJ and Damien Hobgood whose sibling rivalry and struggle to each establish their own identity fuelled their careers.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:films:7ea9a3b4-2efb-4a45-b2e4-5c6b3168b13b/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831190100 +0000" stop="20200831193200 +0000" channel="RedBull TV">
+    <title lang="en">4 Waves 1 Hour</title>
+    <sub-title lang="en">The story of Mick Fanning's 2013 ASP title</sub-title>
+    <desc lang="en">A battle between Kelly Slater and Mick Fanning came down to just four waves in two 30-minute heats. The 2013 ASP World Championship was a battle between Kelly Slater and Mick Fanning that came down to just four waves in two 30-minute heats. Join Mick as he describes his journey to the title.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:films:7f8fa204-874b-5aa5-ba8b-46d44429d090/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+  <programme start="20200831193200 +0000" stop="20200831203300 +0000" channel="RedBull TV">
+    <title lang="en">Ruin and Rose</title>
+    <sub-title lang="en">A world without winter</sub-title>
+    <desc lang="en">Set in the future, a boy goes in search of snow-covered mountains buried by sand in an apocalypse. In a future, arid world a group of children survive in a desert, and a boy goes in search of the world that was lost under the sand: a world of snow-covered mountains. Shot in stunning landscapes, the film features many of the world’s top skiers.</desc>
+    <category lang="en">Sports</category>
+    <icon src="https://resources.redbull.tv/rrn:content:films:d1adc12a-e3fa-5630-aa23-5f85564a8caa/rbtv_display_art_landscape/im:i:h_180,w_320,q_70,f_jpg" />
+    <rating system="US">
+      <value>NR</value>
+    </rating>
+  </programme>
+</tv>
