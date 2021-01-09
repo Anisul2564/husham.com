@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.gamemasters"
+       name="Game Masters"
+       version="1.0"
+       provider-name="Husham.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Game Masters IPTV</summary>
+    <language>en</language>
+    <description lang="en">Game Masters IPTV, Other wise known as PlayersKLUB</description>
+	<description lang="en">This addon is matintaincd by forum.husham.com</description>
+	<platform>all</platform>
+  </extension>
+</addon>
