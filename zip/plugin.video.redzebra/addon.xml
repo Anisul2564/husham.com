@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.redzebra"
-       name="Red Zebra"
+       name="Redzebra"
        version="1.0"
-       provider-name="Red Zebra">
+       provider-name="Redzebra">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -12,9 +12,9 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Red Zebra</summary>
+    <summary lang="en">Redzebra</summary>
     <language>en</language>
-    <description lang="en">Red Zebra</description>
+    <description lang="en">Redzebra</description>
      <platform>all</platform>
   </extension>
 </addon>
